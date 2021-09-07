@@ -54,7 +54,7 @@ export default [
       },
 
       {
-        name: "threejsJourneyLogoTexture",
+        name: "envatomarket",
         source: "/assets/envatomarket.png",
         type: "texture",
       },
