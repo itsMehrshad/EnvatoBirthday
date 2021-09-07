@@ -46,7 +46,7 @@ export default class Screen {
     let sceneAdd = this.scene;
     setTimeout(() => {
       sceneAdd.remove(this.model.mesh);
-    }, 52000);
+    }, 55000);
     sceneAdd.add(this.model.mesh);
   }
 
