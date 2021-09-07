@@ -47,6 +47,7 @@ export default class BouncingLogo {
     this.model.mesh = new THREE.Mesh(this.model.geometry, this.model.material);
     this.model.mesh.scale.y = 0.359;
     this.model.mesh.scale.z = 0.424;
+
     this.model.group.add(this.model.mesh);
 
     // Debug

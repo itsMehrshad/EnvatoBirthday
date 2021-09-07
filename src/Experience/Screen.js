@@ -43,7 +43,11 @@ export default class Screen {
     // Mesh
     this.model.mesh = this.mesh;
     this.model.mesh.material = this.model.material;
-    this.scene.add(this.model.mesh);
+    let sceneAdd = this.scene;
+    setTimeout(() => {
+      sceneAdd.remove(this.model.mesh);
+    }, 52000);
+    sceneAdd.add(this.model.mesh);
   }
 
   update() {
