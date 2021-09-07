@@ -8,7 +8,7 @@
 ## Links
 
 - [GitHub](https://github.com/itsMehrshad/EnvatoBirthday)
-- [Live](#)
+- [Live](https://envato-birthday-nine.vercel.app/)
 - [Models](#)
 
 ## Setup

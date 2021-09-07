@@ -27,7 +27,7 @@ export default class Screen2 {
     this.model.element.controls = true;
     this.model.element.playsInline = true;
     this.model.element.autoplay = true;
-    this.model.element.src = "/assets/videoPortfolio.mp4";
+    this.model.element.src = "/assets/HelloWorld.mp4";
     this.model.element.play();
 
     // Texture
