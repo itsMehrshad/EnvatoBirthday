@@ -110,12 +110,12 @@ export default class World {
       "/assets/MehrshadSpeaking.mp4"
     );
 
-    this.tvScreen.model.mesh.position.x = 4.3;
+    this.tvScreen.model.mesh.position.x = 4.33;
     this.tvScreen.model.mesh.position.y = 2.6;
     this.tvScreen.model.mesh.position.z = 1.85;
-    this.tvScreen.model.mesh.scale.x = 1.65;
+    this.tvScreen.model.mesh.scale.x = 1.72;
     this.tvScreen.model.mesh.scale.y = 1.76;
-    this.tvScreen.model.mesh.scale.z = 1.7;
+    this.tvScreen.model.mesh.scale.z = 1.75;
     this.tvScreen.model.mesh.rotation.y = 0.005;
     console.log(this.tvScreen.model.mesh.scale);
   }
