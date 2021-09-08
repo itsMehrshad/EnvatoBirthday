@@ -132,9 +132,9 @@ export default class World {
     //FramePicture Position
     this.FramePicture.model.mesh.position.x = 0.6; //Depth
     this.FramePicture.model.mesh.position.y = 1.355;
-    this.FramePicture.model.mesh.position.z = 2.618; // Left Right
-    this.FramePicture.model.mesh.scale.x = 0.52;
-    this.FramePicture.model.mesh.scale.y = 0.78;
+    this.FramePicture.model.mesh.position.z = 2.619; // Left Right
+    this.FramePicture.model.mesh.scale.x = 0.53;
+    this.FramePicture.model.mesh.scale.y = 0.9;
     this.FramePicture.model.mesh.scale.z = 0.3;
     // this.FramePicture.model.mesh.rotation.x = 1;
     this.FramePicture.model.mesh.rotation.y = 0.43; //tHIS
