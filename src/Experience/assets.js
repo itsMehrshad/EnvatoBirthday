@@ -36,6 +36,11 @@ export default [
         type: "model",
       },
       {
+        name: "FrameModel",
+        source: "/assets/pidgey_picture_frame/scene.glb",
+        type: "model",
+      },
+      {
         name: "streamerModel",
         source: "/assets/teal_balloon_times_five/scene.glb",
         type: "model",
@@ -69,6 +74,11 @@ export default [
         source: "/assets/tvScreenModel.glb",
         type: "model",
       },
+      {
+        name: "FramePicture",
+        source: "/assets/FramePicture.glb",
+        type: "model",
+      },
 
       {
         name: "macScreenModel",
@@ -91,6 +101,11 @@ export default [
       {
         name: "cakeTexture",
         source: "/assets/fo3_birthday_cake/textures/Material_baseColor.png",
+        type: "texture",
+      },
+      {
+        name: "frameTexture",
+        source: "/assets/pidgey_picture_frame/lambert1_baseColor.png",
         type: "texture",
       },
 

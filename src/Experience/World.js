@@ -12,6 +12,8 @@ import BouncingLogo from "./BouncingLogo.js";
 import Screen from "./Screen.js";
 import Screen2 from "./Screen2.js";
 import Screen3 from "./Screen3.js";
+import FramePicture from "./FramePicture";
+import Frame from "./Frame.js";
 
 export default class World {
   constructor(_options) {
@@ -30,6 +32,7 @@ export default class World {
         this.setTopChair();
         this.setCake();
         this.setHat();
+        this.setFrame();
         this.setStreamer();
         this.setElgatoLight();
         this.setBouncingLogo();
@@ -47,6 +50,7 @@ export default class World {
     this.room.hattexture = this.resources.items.hatTexture;
     this.room.balloonTexture = this.resources.items.balloonTexture;
     this.room.cakeTexture = this.resources.items.cakeTexture;
+    this.room.frameTexture = this.resources.items.frameTexture;
     this.room.texture.encoding = THREE.sRGBEncoding;
     this.room.texture.flipY = false;
 
@@ -84,6 +88,9 @@ export default class World {
   setHat() {
     this.Hat = new Hat();
   }
+  setFrame() {
+    this.Hat = new Frame();
+  }
   setStreamer() {
     this.Streamer = new Streamer();
   }
@@ -109,7 +116,11 @@ export default class World {
       this.resources.items.tvScreenModel.scene.children[0],
       "/assets/MehrshadSpeaking.mp4"
     );
-
+    this.FramePicture = new FramePicture(
+      this.resources.items.FramePicture.scene.children[0],
+      "/assets/happy-birthday-image-10.jpg"
+    );
+    //TvScreen Position
     this.tvScreen.model.mesh.position.x = 4.33;
     this.tvScreen.model.mesh.position.y = 2.6;
     this.tvScreen.model.mesh.position.z = 1.85;
@@ -117,7 +128,17 @@ export default class World {
     this.tvScreen.model.mesh.scale.y = 1.76;
     this.tvScreen.model.mesh.scale.z = 1.75;
     this.tvScreen.model.mesh.rotation.y = 0.005;
-    console.log(this.tvScreen.model.mesh.scale);
+
+    //FramePicture Position
+    this.FramePicture.model.mesh.position.x = 0.6; //Depth
+    this.FramePicture.model.mesh.position.y = 1.355;
+    this.FramePicture.model.mesh.position.z = 2.618; // Left Right
+    this.FramePicture.model.mesh.scale.x = 0.52;
+    this.FramePicture.model.mesh.scale.y = 0.78;
+    this.FramePicture.model.mesh.scale.z = 0.3;
+    // this.FramePicture.model.mesh.rotation.x = 1;
+    this.FramePicture.model.mesh.rotation.y = 0.43; //tHIS
+    this.FramePicture.model.mesh.rotation.z = -1.85;
   }
 
   resize() {}
@@ -134,6 +155,8 @@ export default class World {
     if (this.Cake) this.Cake.update();
 
     if (this.Hat) this.Hat.update();
+
+    if (this.Frame) this.Frame.update();
 
     if (this.Streamer) this.Streamer.update();
 

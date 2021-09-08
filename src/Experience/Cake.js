@@ -18,10 +18,10 @@ export default class Cake {
     this.model = {};
 
     this.model.group = this.resources.items.cakeModel.scene.children[0];
-    this.model.group.scale.x = 0.005;
-    this.model.group.scale.y = 0.005;
-    this.model.group.scale.z = 0.005;
-    this.resources.items.cakeModel.scene.children[0].position.x = 0.1;
+    this.model.group.scale.x = 0.004;
+    this.model.group.scale.y = 0.004;
+    this.model.group.scale.z = 0.004;
+    this.resources.items.cakeModel.scene.children[0].position.x = 0.01;
     this.resources.items.cakeModel.scene.children[0].position.y = 0.9;
     this.resources.items.cakeModel.scene.children[0].position.z = 0.9;
     this.scene.add(this.model.group);
