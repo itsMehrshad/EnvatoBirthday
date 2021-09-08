@@ -22,8 +22,8 @@ export default class Screen {
     // Element
 
     this.model.element = document.createElement("video");
-    this.model.element.muted = true;
-    this.model.element.loop = true;
+    this.model.element.muted = false;
+    this.model.element.loop = false;
     this.model.element.controls = true;
     this.model.element.playsInline = true;
     this.model.element.autoplay = true;
