@@ -32,7 +32,7 @@ export default [
       },
       {
         name: "hatModel",
-        source: "/assets/the_witchs_hat/scene.glb",
+        source: "/assets/party_hat_v2/scene.glb",
         type: "model",
       },
       {
@@ -79,7 +79,7 @@ export default [
       { name: "bakedTexture", source: "/assets/baked.jpg", type: "texture" },
       {
         name: "hatTexture",
-        source: "/assets/the_witchs_hat/textures/material_baseColor.png",
+        source: "/assets/party_hat_v2/material_metallicRoughness.png",
         type: "texture",
       },
       {

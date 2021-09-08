@@ -18,12 +18,12 @@ export default class Hat {
     this.model = {};
 
     this.model.group = this.resources.items.hatModel.scene.children[0];
-    this.resources.items.hatModel.scene.children[0].scale.x = 0.017;
-    this.resources.items.hatModel.scene.children[0].scale.y = 0.017;
-    this.resources.items.hatModel.scene.children[0].scale.z = 0.017;
+    this.resources.items.hatModel.scene.children[0].scale.x = 0.0045;
+    this.resources.items.hatModel.scene.children[0].scale.y = 0.0045;
+    this.resources.items.hatModel.scene.children[0].scale.z = 0.0045;
     this.resources.items.hatModel.scene.children[0].position.x = -3.81;
-    this.resources.items.hatModel.scene.children[0].position.y = 7.79;
-    this.resources.items.hatModel.scene.children[0].position.z = -0.7;
+    this.resources.items.hatModel.scene.children[0].position.y = 3.1;
+    this.resources.items.hatModel.scene.children[0].position.z = 4.14;
     this.scene.add(this.model.group);
 
     this.model.group.traverse((_child) => {
