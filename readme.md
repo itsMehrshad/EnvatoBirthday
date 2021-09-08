@@ -9,7 +9,7 @@
 
 - [GitHub](https://github.com/itsMehrshad/EnvatoBirthday)
 - [Live](https://envato-birthday-nine.vercel.app/)
-- [Models](#)
+- [Models](https://mega.nz/folder/pEIxEADJ#8xHAahXzEs-JNgslpDHZqA)
 
 ## Setup
 
