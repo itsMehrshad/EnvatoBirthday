@@ -26,23 +26,23 @@ To run the Envato Birthday Celebration web application locally, follow these ste
 1. Clone the repository:
    ````
    git clone https://github.com/mehrshud/EnvatoBirthday.git
-   ```
+
 
 2. Navigate to the repository folder:
    ````
    cd EnvatoBirthday
-   ```
+
 
 
 3. Install deps:
    ````
    npm install
-   ```
+
  
 4. Run Project:
    ````
-   nom run dev
-   ```  
+   npm run dev
+
    
 
 That's it! Enjoy exploring the Envato Birthday Celebration web application.
