@@ -32,18 +32,13 @@ To run the Envato Birthday Celebration web application locally, follow these ste
    ````
    cd EnvatoBirthday
 
-
-
 3. Install deps:
    ````
    npm install
-
  
 4. Run Project:
    ````
    npm run dev
-
-   
 
 That's it! Enjoy exploring the Envato Birthday Celebration web application.
 
