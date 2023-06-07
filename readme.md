@@ -1,6 +1,6 @@
 # Envato Birthday Celebration 🎉🎂
 
-![Envato Birthday Banner](./assets/envato-birthday-banner.png)
+![Envato Birthday Banner](https://www.envato.com/static/media/envato.13edc57e.svg)
 
 Welcome to the **Envato Birthday Celebration** project! This repository contains a delightful THREE.js web application created to celebrate the birthdays of Envato community members. The app showcases their profiles and unique achievements on their special day.🥳
 
